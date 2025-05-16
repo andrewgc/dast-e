@@ -16,7 +16,7 @@ jobs:
         REGION: 'US'
         pull-report: 'true'
     - name: Publish Test Report
-      uses: mikepenz/action-junit-report@v1 
+      uses: mikepenz/action-junit-report@v5
       with:
         report_paths: 'report.xml'
         github_token: ${{ secrets.GH_TOKEN }}
