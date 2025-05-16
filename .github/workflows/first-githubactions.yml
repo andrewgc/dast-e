@@ -4,7 +4,7 @@ on:
 jobs:
   veracode_security_scan:
     runs-on: ubuntu-latest
-    name: Run Veracode DAST Essentials Scan (DVWA)
+    name: Run Veracode DAST Essentials Scan (Verademo-api)
     steps:
     - name: Veracode Action Step
       id: Veracode 
